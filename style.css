@@ -11,6 +11,8 @@
 
 .column {
   float: left;
+  border-spacing: 5px;
+  column-gap: 20px;
   width: 33.33%;
 }
 
@@ -22,38 +24,55 @@
 }
 .Aboutme {
   text-align: left;
-  background-color: red;
-  border-style: solid;
-  border-width: 2px;
+  /* border-style: solid;
+  border-width: 2px; */
+  /* margin: 1%; */
+  padding: auto, auto, auto, 20px;
 }
 
 
 .Mywork {
   text-align: left;
-  background-color: pink;
-  border-style: solid;
-  border-width: 2px;
+  /* background-color: pink; */
+  /* border-style: solid;
+  border-width: 2px; */
+  padding: 10%;
+  /* margin: 1%; */
 }
 
 .Learning {
   text-align: left;
-  background-color: grey;
-  border-style: solid;
-  border-width: 2px;
+  /* background-color: grey; */
+  /* border-style: solid;
+  border-width: 2px; */
+  padding: 1%;
+  /* margin: 1%; */
 }
 
 .resume {
   float: left;
-  background-color: grey;
+  /* background-color: grey; */
   border: solid;
 }
 
 .Getintouch {
   float: right;
-  background-color: blue;
+  /* background-color: blue; */
   border: solid;
 }
 
 .p1 {
   float:right;
 }
+
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+ 
