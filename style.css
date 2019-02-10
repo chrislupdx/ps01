@@ -21,8 +21,6 @@
   clear: both;
 }
 .Aboutme {
-  margin: 1%;
-  padding: 1%;
   text-align: left;
   background-color: red;
   border-style: solid;
@@ -31,8 +29,6 @@
 
 
 .Mywork {
-  margin: 1%;
-  padding: 1%;
   text-align: left;
   background-color: pink;
   border-style: solid;
@@ -40,8 +36,6 @@
 }
 
 .Learning {
-  margin: 1%;
-  padding: 1%;
   text-align: left;
   background-color: grey;
   border-style: solid;
