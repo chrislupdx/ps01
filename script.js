@@ -1,9 +1,16 @@
-// Function to change the content of t2
-function modifyText(new_text) {
-  var t2 = document.getElementById("t2");
-  t2.firstChild.nodeValue = new_text;
-}
+function grabUserData() {
+	fetch('https://dog.ceo/api/breeds/image/random',{
 
-// Function to add event listener to table
-var el = document.getElementById("outside");
-el.addEventListener("click", function(){modifyText("four")}, false);
+	})
+	.then(function(response) {
+	   return response.json()
+	   // document.getElementById("hipsterisms")
+	 })
+	.then(function(response) {
+	   console.log(response)
+	   // document.getElementById('dog').src = response.message
+
+	 })
+	.catch(error => console.error(error));
+
+  grabUserData();
