@@ -5,9 +5,14 @@
   }
 }
 
+
+
 * {
   box-sizing: border-box;
 }
+
+body.main{background-image:url(greentea.jpg);}
+
 
 .column {
   float: left;
@@ -23,7 +28,7 @@
   clear: both;
 }
 .Aboutme {
-  text-align: left;
+  /* text-align: left; */
   /* border-style: solid;
   border-width: 2px; */
   /* margin: 1%; */
@@ -32,16 +37,16 @@
 
 
 .Mywork {
-  text-align: left;
+  /* text-align: left; */
   /* background-color: pink; */
   /* border-style: solid;
   border-width: 2px; */
-  padding: 10%;
+  /* padding: 10%; */
   /* margin: 1%; */
 }
 
 .Learning {
-  text-align: left;
+  /* text-align: left; */
   /* background-color: grey; */
   /* border-style: solid;
   border-width: 2px; */
@@ -75,4 +80,3 @@
   main {
     flex: 1 0 auto;
   }
- 
